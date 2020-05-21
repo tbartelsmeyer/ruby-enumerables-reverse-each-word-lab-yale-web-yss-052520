@@ -11,9 +11,6 @@ def reverse_each_word(string)
   out_arr.join(" ")
 end
 
-out = reverse_each_word("This is a test")
-puts "final out: #{out}"
-
 =begin
 def reverse_each_word_each(string)
   out_arr = string.split(/ /).collect { |word|
