@@ -6,7 +6,7 @@ def reverse_each_word(string)
       reverse_pos -= 1
       word_arr[reverse_pos]
     }
-    out_str = out_word.join
+    out_word.join
   }
   out_arr.join(" ")
 end
