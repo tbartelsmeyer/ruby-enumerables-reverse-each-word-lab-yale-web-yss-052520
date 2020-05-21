@@ -28,6 +28,3 @@ def reverse_each_word_each(string)
   }
   out_arr.join(" ")
 end
-
-out = reverse_each_word("This is a test")
-puts "final out: #{out}"
